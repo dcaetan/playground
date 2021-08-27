@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>JavaScript</title>
+        <script type="text/javascript" src="js/main.js"></script>
+    </head>
+    <body onload="abriuPagina()">
+        <!-- Utiliza códigos JavaScript dentro do HTML com a tag <script> -->
+        <script>
+                //alert("Olá, seja bem vindo!");
+        </script>
+        <h1>Estudando JavaScript</h1>
+
+        <button type="button" onclick="botaoClique()">Clique</button>
+        <p id="apertou_botao" onclick="apertouBotaoLink()"></p>
+        <!-- <p id="passo_mouse" onmouseover="trocar_texto()" onmouseout="voltarTexto()">Passe o mouse aqui!</p> -->
+        <p onmouseover="trocarTexto(this)" onmouseout="voltarTexto(this)">Passe o mouse aqui!</p>
+        <p onmouseover="trocarTexto(this)" onmouseout="voltarTexto(this)">Passe o mouse aqui!</p>
+    
+        <select onchange="funcaoChange(this)">
+            <option value="1">Valor 1</option>
+            <option value="2">Valor 2</option>
+            <option value="3">Valor 3</option>
+        </select>
+
+    </body>
+</html>
